@@ -8,7 +8,9 @@ namespace PierresBakery
   {
     static void Main()
     {
-      
+      Console.WriteLine("How many loaves of bread would you like?");
+      int loaves = int.Parse(Console.ReadLine());
+      Console.WriteLine(loaves);
     }
   }
 }
