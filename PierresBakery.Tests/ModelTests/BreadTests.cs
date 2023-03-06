@@ -17,7 +17,7 @@ namespace PierresBakery.Tests
     public void GetCost_ReturnsCostOfAllLoaves_Int()
     {
       Bread bread = new Bread(1);
-      Assert.AreEqual(bread.BreadPrice(1), 5);
+      Assert.AreEqual(bread.BreadPrice(), 5);
     }
   }
 }

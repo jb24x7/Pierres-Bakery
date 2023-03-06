@@ -7,9 +7,9 @@ namespace PierresBakery.Models
     {
       Order = breadNumber;
     }
-    public int BreadPrice(int bread)
+    public int BreadPrice()
     {
-      int _cost = 5 * bread;
+      int _cost = 5 * Order;
       return (_cost);
     }
   }
