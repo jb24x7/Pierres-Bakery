@@ -9,8 +9,9 @@ namespace PierresBakery.Models
     }
     public int BreadPrice()
     {
-      int _cost = 5 * Order;
-      return (_cost);
+      int cost = 5 * Order;
+      int finalCost = cost - (5 * ((Order - (Order % 3)) / 3));
+      return (finalCost);
     }
   }
 }
